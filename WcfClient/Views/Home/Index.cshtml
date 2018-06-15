@@ -1,0 +1,27 @@
+﻿@model WcfClient.StudentOperation.Student[]
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Sex</th>
+        <th>Birthday</th>
+    </tr>
+    @{
+        foreach (var item in Model)
+        {
+            <text>
+                <tr>
+                    <td>@item.ID</td>
+                    <td>@item.Name</td>
+                    <td>@item.Sex</td>
+                    <td>@item.Birthday.ToShortDateString()</td>
+                </tr>
+            </text>
+
+        }
+    }
+</table>
