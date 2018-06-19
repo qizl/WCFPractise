@@ -2,7 +2,6 @@
 
 namespace Contracts
 {
-    //[ServiceContract]
     [ServiceContract(Name = "CalculatorService")]
     public interface ICalculator
     {

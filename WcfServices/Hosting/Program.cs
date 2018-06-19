@@ -1,8 +1,6 @@
-﻿using Contracts;
-using Services;
+﻿using Services;
 using System;
 using System.ServiceModel;
-using System.ServiceModel.Description;
 
 namespace Hosting
 {
@@ -33,7 +31,7 @@ namespace Hosting
                 host.Opened += delegate { Console.WriteLine("CalculaorService已经启动，按任意键终止服务！"); };
 
                 host.Open();
-                Console.ReadKey();
+                Console.Read();
             }
         }
     }
