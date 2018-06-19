@@ -26,7 +26,7 @@ namespace WcfClient.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:39903/StudentOperation.svc")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:8001/StudentOperation.svc")]
         public string WcfClient_StudentOperation_StudentOperation {
             get {
                 return ((string)(this["WcfClient_StudentOperation_StudentOperation"]));

@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="WcfClient_StudentOperation_StudentOperation" Type="(Web Service URL)" Scope="Application">
-      <Value Profile="(Default)">http://localhost:39903/StudentOperation.svc</Value>
+      <Value Profile="(Default)">http://localhost:8001/StudentOperation.svc</Value>
     </Setting>
   </Settings>
 </SettingsFile>
