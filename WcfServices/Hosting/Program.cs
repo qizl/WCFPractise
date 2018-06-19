@@ -10,7 +10,7 @@ namespace Hosting
     {
         static void Main(string[] args)
         {
-            HostCalculatorServiceViaCode();
+            HostCalculatorServiceSimple();
         }
 
         static void HostCalculatorServiceSimple()
